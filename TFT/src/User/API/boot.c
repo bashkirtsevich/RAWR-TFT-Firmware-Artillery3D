@@ -131,7 +131,7 @@ void updateIcon(void)
   int notfound = 0;
   char tempstr[50];
   char nowBmp[64];
-  GUI_Clear(infoSettings.bg_color);
+  /*GUI_Clear(infoSettings.bg_color);
   GUI_DispString(5, PADDING, (u8 *)"Updating Logo");
   GUI_ClearPrect(&iconUpdateRect);
   if (bmpDecode(BMP_ROOT_DIR "/Logo.bmp", LOGO_ADDR))
@@ -143,7 +143,7 @@ void updateIcon(void)
   {
     notfound++;
     dispIconFail((u8 *)(BMP_ROOT_DIR "/Logo.bmp"));
-  }
+  }*/
 
   GUI_Clear(infoSettings.bg_color);
   GUI_DispString(5, PADDING, (u8 *)"Updating Icons");
